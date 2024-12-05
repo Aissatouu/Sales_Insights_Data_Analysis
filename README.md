@@ -4,6 +4,9 @@
 
 SELECT count(*) FROM customers;
 
+## Wierd trasnsactions
+
+SELECT * FROM sales.transactions WHERE sales_amount <=0;
 
 ## Total revenue in year 2020 in Chennai
 
