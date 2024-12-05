@@ -1,14 +1,14 @@
 # Data Analysis Using SQL
 
-## Total number of customers
+#### Total number of customers
 
 SELECT count(*) FROM customers;
 
-## Wierd trasnsactions
+#### Wierd trasnsactions
 
 SELECT * FROM sales.transactions WHERE sales_amount <=0;
 
-## Total revenue in year 2020 in Chennai
+#### Total revenue in year 2020 in Chennai
 
 SELECT 
  SUM(sales.transactions.sales_amount)
